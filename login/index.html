@@ -199,7 +199,7 @@
           <div class="field space">
             <span class="fa fa-lock"></span>
             <input type="password" class="pass-key" placeholder="Password" required id="password">
-            <span class="show">SHOW</span>
+            <span class="show">TUNJUKKAN</span>
           </div>
           <div class="pass">
             <a href="#">Forgot Password?</a>
@@ -229,11 +229,11 @@
       showBtn.addEventListener('click', function(){
         if(pass_field.type === "password"){
           pass_field.type = "text";
-          showBtn.textContent = "HIDE";
+          showBtn.textContent = "SEMBUNYIKAN";
           showBtn.style.color = "#3498db";
         } else {
           pass_field.type = "password";
-          showBtn.textContent = "SHOW";
+          showBtn.textContent = "TUNJUKKAN";
           showBtn.style.color = "rgba(255,255,255,0.6)";
         }
       });
