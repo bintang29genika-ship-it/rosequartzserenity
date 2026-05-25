@@ -205,10 +205,10 @@
           <div class="field space">
             <span class="fa fa-lock"></span>
             <input type="password" class="pass-key" placeholder="Password" required id="reg-password">
-            <span class="show">TUNJUKAN</span>
+            <span class="show">TUNJUKKAN</span>
           </div>
           <div class="field">
-            <input type="submit" value="REGISTER">
+            <input type="submit" value="DAFTAR">
           </div>
         </form>
         <div class="login">Atau daftar dengan</div>
@@ -232,11 +232,11 @@
       showBtn.addEventListener('click', function(){
         if(pass_field.type === "password"){
           pass_field.type = "text";
-          showBtn.textContent = "HIDE";
+          showBtn.textContent = "SEMBUNYIKAN";
           showBtn.style.color = "#3498db";
         } else {
           pass_field.type = "password";
-          showBtn.textContent = "SHOW";
+          showBtn.textContent = "TUNJUKKAN";
           showBtn.style.color = "rgba(255,255,255,0.6)";
         }
       });
