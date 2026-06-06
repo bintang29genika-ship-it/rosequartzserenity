@@ -877,6 +877,8 @@ Banner Style
   top: 100px;
   width: 267px;
   height: 532px;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .main-banner:before {
@@ -889,6 +891,8 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 674px;
+  pointer events: none;
+  z-index: -1;
 }
 
 .main-banner .item {
