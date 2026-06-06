@@ -873,11 +873,10 @@ Banner Style
   background-image: url(../images/SVT_267x532.png);
   background-repeat: no-repeat;
   position: absolute;
-  left: -40px;
+  left: 0;
   top: 100px;
   width: 267px;
   height: 532px;
-  z-index: -1;
 }
 
 .main-banner:before {
