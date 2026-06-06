@@ -891,7 +891,7 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 674px;
-  pointer events: none;
+  pointer-events: none;
   z-index: -1;
 }
 
