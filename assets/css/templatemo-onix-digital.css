@@ -1660,7 +1660,7 @@ contact
 
 .contact-left-dec img {
   position: absolute;
-  z-index: 1;
+  z-index: -1;  
   width: 174px;
   height: 319px;
   left: 0;
